@@ -9,3 +9,4 @@ else:
     print("Continue d'essayer, tu y arriveras !")
 
 print("Best student ever")
+prin("test")
