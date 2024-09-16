@@ -7,4 +7,5 @@ elif score >= 100 and not victoire:
     print("Bien joué, mais tu n'as pas gagné cette fois.")
 else:
     print("Continue d'essayer, tu y arriveras !")
-    
+
+print("Best student ever")
