@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site multipage</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#" data-page="home.html">Accueil</a></li>
+                <li><a href="#" data-page="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+        <iframe id="content-frame" src="pages/home.html" frameborder="0"></iframe>
+    </main>
+
+
+    <footer>
+        <p>&copy; 2025 MonSiteWeb. Tous droits réservés.</p>
+    </footer>
+
+
+    <script src="js/multipage.js"></script>
+</body>
+</html>
